@@ -6,17 +6,15 @@ class WooCommerceSupport
 {
     public static function init(): void
     {
-        if (class_exists('woocommerce')) {
-            // Add filters for product titles, descriptions, etc.
-            add_filter('the_title', array(__CLASS__, 'process_product_title'), 10, 2);
-            add_filter('woocommerce_short_description', array(__CLASS__, 'process_short_description'), 10, 1);
-            add_filter('woocommerce_product_description', array(__CLASS__, 'process_long_description'), 10, 1);
-            add_filter('woocommerce_product_reviews', array(__CLASS__, 'process_reviews'), 10, 1);
+        // Add filters for product titles, descriptions, etc.
+        add_filter('the_title', array(__CLASS__, 'process_product_title'), 10, 2);
+        add_filter('woocommerce_short_description', array(__CLASS__, 'process_short_description'), 10, 1);
+        add_filter('woocommerce_product_description', array(__CLASS__, 'process_long_description'), 10, 1);
+        add_filter('woocommerce_product_reviews', array(__CLASS__, 'process_reviews'), 10, 1);
 
-            // Process checkout and cart text
-            add_filter('woocommerce_cart_item_name', array(__CLASS__, 'process_cart_item_names'), 10, 3);
-            add_filter('woocommerce_checkout_order_review', array(__CLASS__, 'process_checkout_order_review'), 10, 1);
-        }
+        // Process checkout and cart text
+        add_filter('woocommerce_cart_item_name', array(__CLASS__, 'process_cart_item_names'), 10, 3);
+        add_filter('woocommerce_checkout_order_review', array(__CLASS__, 'process_checkout_order_review'), 10, 1);
     }
 
     /**

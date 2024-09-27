@@ -24,7 +24,7 @@ class Utils
      * @param array  $abbreviations Array of abbreviations
      * @return string Processed content
      */
-    public static function replace_abbreviations(string $content, string $abbreviations): string
+    public static function replace_abbreviations(string $content, array $abbreviations): string
     {
         foreach ($abbreviations as $abbr) {
             $escaped_abbr = preg_quote($abbr, '/');
