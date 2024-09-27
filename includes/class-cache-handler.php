@@ -61,18 +61,6 @@ class CacheHandler
     }
 
     /**
-     * Clears all cache related to the plugin.
-     *
-     * @return void
-     */
-    public static function clear_all_cache(): void
-    {
-        global $wpdb;
-        // Delete all transients related to the plugin.
-        $wpdb->query("DELETE FROM {$wpdb->options} WHERE option_name LIKE '_transient_fs_fixed_spaces_%'");
-    }
-
-    /**
      * Invalidates the cache when a post is saved or updated.
      *
      * @param int $post_id The ID of the post being saved.
