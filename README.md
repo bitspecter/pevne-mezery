@@ -1,8 +1,8 @@
-# Pevné Mezery
+# WordPress Pevné Mezery
 
 ## Popis
 
-Plugin **Pevné Mezery** je navržen tak, aby automaticky aplikoval typografická pravidla pro pevné mezery podle české normy. Tento plugin zabraňuje nesprávnému zalamování textu, například po jednopísmenných předložkách a spojkách, mezi čísly a jednotkami, nebo kolem titulů a speciálních symbolů.
+Plugin **Pevné Mezery** je navržen tak, aby automaticky aplikoval typografická pravidla pro pevné mezery podle české normy. Tento WordPress plugin zabraňuje nesprávnému zalamování textu, například po jednopísmenných předložkách a spojkách, mezi čísly a jednotkami, nebo kolem titulů a speciálních symbolů.
 
 Plugin automaticky zpracovává obsah webu a vkládá pevné mezery tam, kde je to potřeba, čímž zvyšuje čitelnost a estetickou kvalitu textu na vašich stránkách.
 
