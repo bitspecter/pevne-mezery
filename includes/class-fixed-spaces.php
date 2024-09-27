@@ -29,12 +29,12 @@ class PevneMezery
         }
 
         // WooCommerce integration - only load if enabled
-        if (class_exists('WooCommerce') && apply_filters('pevne_mezery_enable_woocommerce', true)) {
+        if (class_exists('woocommerce') && apply_filters('pevne_mezery_enable_woocommerce', true)) {
             WooCommerceSupport::init();
         }
 
         // ACF integration - only load if enabled
-        if (class_exists('ACF') && apply_filters('pevne_mezery_enable_acf', true)) {
+        if (class_exists('acf') && apply_filters('pevne_mezery_enable_acf', true)) {
             ACFSupport::register_acf_filters();
         }
     }

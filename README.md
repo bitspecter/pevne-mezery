@@ -1,4 +1,4 @@
-# WordPress Pevné Mezery
+# Plugin Pevné Mezery pro WordPress
 
 ## Popis
 

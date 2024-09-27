@@ -6,7 +6,10 @@ Version: 1.0
 Requires PHP: 8.0
 Author: BitSpecter
 Author URI: https://bitspecter.com
+Plugin URI: https://github.com/bitspecter/pevne-mezery
 Text Domain: pevne-mezery
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 */
 
 namespace BitSpecter\PevneMezery;

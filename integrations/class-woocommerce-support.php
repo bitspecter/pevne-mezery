@@ -6,7 +6,7 @@ class WooCommerceSupport
 {
     public static function init(): void
     {
-        if (class_exists('WooCommerce')) {
+        if (class_exists('woocommerce')) {
             // Add filters for product titles, descriptions, etc.
             add_filter('the_title', array(__CLASS__, 'process_product_title'), 10, 2);
             add_filter('woocommerce_short_description', array(__CLASS__, 'process_short_description'), 10, 1);
