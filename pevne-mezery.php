@@ -27,7 +27,6 @@ if (! defined('HOUR_IN_SECONDS')) {
 require_once plugin_dir_path(__FILE__) . 'includes/class-fixed-spaces.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-content-handler.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-cache-handler.php';
-require_once plugin_dir_path(__FILE__) . 'includes/class-typography-rules.php';  
 require_once plugin_dir_path(__FILE__) . 'includes/class-utils.php';    
 
 require_once plugin_dir_path(__FILE__) . 'integrations/class-acf-support.php';
